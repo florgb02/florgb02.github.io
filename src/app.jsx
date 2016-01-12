@@ -26,7 +26,7 @@ var App = React.createClass({
 	    		To-Do List
 	    		</h2>
 	    		<Header itemStore={this.firebaseRefs.items} />
-	    		<div className={ "content" + (this.state.loaded ? 'loaded' : '' )}>
+	    		<div className={ "content " + (this.state.loaded ? 'loaded' : '' )}>
 	    			<List items={this.state.items} />
 	    			{this.deleteButton()}
 	    		</div>
@@ -42,7 +42,7 @@ var App = React.createClass({
 		}else{
 			return <div className="text-center clear-complete" >
 			<hr />
-			<button type="button" onClick={this.onDeleteDoneClick} className="btn btn-default">Clear Complete</button>
+			<button type="button" onClick={this.onDeleteDoneClick} className="btn btn-info">Clear Complete</button>
 			</div>
 		}
 	},

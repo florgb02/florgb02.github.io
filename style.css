@@ -1,16 +1,15 @@
-.content{
-	opacity:0;
-	transition: opacity 1s ease-in;
-}
+.content {
+  opacity: 0;
+  transition: opacity 1s ease-in; }
 
-.loaded{
-	opacity:1;
-}
+.loaded {
+  opacity: 1; }
 
-.input-group{
-	margin-bottom: 15px;
-}
+.input-group {
+  margin-bottom: 15px; }
 
-.clear-complete{
-	margin-bottom: 15px;
-}
+.clear-complete {
+  margin-bottom: 15px; }
+
+.btn {
+  margin: 0 6px; }

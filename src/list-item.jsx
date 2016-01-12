@@ -20,7 +20,7 @@ module.exports = React.createClass({
 						<input type="checkbox" checked={this.state.done} onChange={this.handleDoneChange}/>
 					</span>
 					<input type="text" className="form-control" value={this.state.text} onChange={this.handleTextChange} disabled={ (this.props.item.done ? 'disable' : '')}/>
-					<span className="inut-group-btn">
+					<span className="input-group-btn">
 						{this.changesButtons()}
 						<button className="btn btn-default" onClick={this.handleDeleteClick}>Delete</button>
 					</span>
@@ -31,8 +31,8 @@ module.exports = React.createClass({
 			return null;
 		}else{
 			return <span>
-				<button onClick={this.handleSaveClick} className="btn btn-default">Save</button>
-				<button onClick={this.handleUndoClick} className="btn btn-default">Undo</button>
+				<button onClick={this.handleSaveClick} className="btn btn-warning">Save</button>
+				<button onClick={this.handleUndoClick} className="btn btn-danger">Undo</button>
 			</span>
 		}
 	},
