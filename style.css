@@ -1,15 +1,235 @@
-.content {
-  opacity: 0;
-  transition: opacity 1s ease-in; }
+.piece1 .pie {
+  color: red;
+  -moz-transform: rotate(120deg);
+  -webkit-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  transform: rotate(120deg); }
 
-.loaded {
-  opacity: 1; }
+.piece2 {
+  -moz-transform: rotate(120deg);
+  -webkit-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  transform: rotate(120deg); }
 
-.input-group {
-  margin-bottom: 15px; }
+.piece2 .pie {
+  color: green;
+  -moz-transform: rotate(120deg);
+  -webkit-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  transform: rotate(120deg); }
 
-.clear-complete {
-  margin-bottom: 15px; }
+.piece3 {
+  -moz-transform: rotate(240deg);
+  -webkit-transform: rotate(240deg);
+  -o-transform: rotate(240deg);
+  transform: rotate(120deg); }
 
-.btn {
-  margin: 0 6px; }
+.piece3 .pie {
+  color: blue;
+  -moz-transform: rotate(120deg);
+  -webkit-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  transform: rotate(120deg); }
+
+html, body {
+  height: 100%; }
+
+.wrapper {
+  min-height: 98%;
+  height: auto !important;
+  margin: 0 auto; }
+
+.image-settings {
+  width: 45%; }
+
+.navbar-default {
+  background: #A3D1CA !important; }
+  .navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    padding: 11px 15px; }
+  .navbar-default .navbar-default .navbar-toggle, .navbar-default .navbar-default .icon-bar {
+    color: #fff !important; }
+  .navbar-default .navbar-default .navbar-nav li a:focus, .navbar-default .navbar-default .navbar-nav li a:hover {
+    color: #000; }
+  .navbar-default .navbar-nav > li > a {
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 16px; }
+  .navbar-default i.fa.fa-angle-right {
+    margin-left: 3px;
+    font-size: 27px; }
+  .navbar-default i.fa.fa-angle-left {
+    margin-right: 3px;
+    font-size: 27px; }
+  .navbar-default .navbar-toggle {
+    background: #fff; }
+
+.hr-content {
+  display: inline-block; }
+
+.container {
+  width: 100%; }
+
+.container-main .left-container img {
+  width: 100%;
+  max-width: 250px;
+  float: none; }
+
+.container-main .right-container {
+  border-left: none; }
+  .container-main .right-container ul.skills-list li {
+    width: 50%;
+    float: left;
+    line-height: 2;
+    text-transform: uppercase; }
+  .container-main .right-container .thumbnail-wrapper {
+    margin: 30px 0px; }
+  .container-main .right-container .thumbnail {
+    border: none;
+    margin: 1rem; }
+    .container-main .right-container .thumbnail img {
+      max-width: 200px;
+      min-width: 190px;
+      height: 62px; }
+
+.container-main h1 {
+  font-size: 45px;
+  font-family: cursive; }
+
+.container-main h2 {
+  color: #777;
+  border-bottom: 1px solid #ddd;
+  font-size: 28px;
+  font-family: cursive; }
+
+.container-main h3 {
+  font-size: 20px;
+  font-style: italic; }
+
+.container-main p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 15px; }
+
+.container-main label.title {
+  font-size: 18px;
+  color: #999;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-family: monospace; }
+
+.container-main .rm-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.show_project_info {
+  opacity: 0.9;
+  background: #eee;
+  z-index: 999; }
+
+.footer {
+  height: auto;
+  clear: both;
+  background: #A3D1CA;
+  padding: 10px;
+  margin-top: 2rem; }
+  .footer p {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin: 0; }
+
+.hold {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  clip: rect(0px, 200px, 200px, 100px);
+  left: 300px; }
+
+.chart img {
+  width: 100%; }
+
+.socialmedia {
+  margin: 0px;
+  display: inline-block;
+  text-align: center;
+  width: 100%; }
+  .socialmedia a {
+    margin-right: 0px; }
+  .socialmedia i {
+    font-size: 4rem;
+    color: #85C3BA;
+    margin: 10px; }
+
+.quotes {
+  text-align: center;
+  font-style: oblique;
+  font-size: 12px;
+  color: #aaa;
+  margin: 3rem 0; }
+
+.links ul {
+  padding: 5px 15px; }
+  .links ul li {
+    list-style: none;
+    color: #fff;
+    float: left;
+    width: auto;
+    margin: 0 15px; }
+    .links ul li a {
+      color: #fff;
+      font-size: 20px;
+      text-transform: uppercase; }
+
+.align-right {
+  text-align: right; }
+
+.align-center {
+  text-align: center; }
+
+.middle-link {
+  padding-left: 5px; }
+
+.cp {
+  float: none !important;
+  padding-top: 10px; }
+
+.row {
+  clear: both; }
+
+.margin {
+  margin: 1rem 0; }
+
+.contact {
+  padding: 0; }
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container-main .right-container {
+    border-left: 1px solid #ddd; }
+    .container-main .right-container ul.skills-list li {
+      width: 33%; }
+  .cp {
+    float: right !important;
+    padding-top: 0; }
+  .hr-content {
+    display: none; }
+  h2 {
+    color: #555;
+    border-bottom: 1px solid #ddd;
+    font-size: 30px; } }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container-main .right-container {
+    border-left: 1px solid #ddd; }
+  .hr-content {
+    display: none; } }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .hr-content {
+    display: none; } }
