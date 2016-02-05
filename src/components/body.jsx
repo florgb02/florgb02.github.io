@@ -20,8 +20,8 @@ module.exports = React.createClass({
 			<p>
 			I enjoy writing beautiful and clean code from the Back-End to Front-End because beautiful code is really meant 
 			to help the programmer  be happy and productive. </p>
-			<p>I Beleive in Work - Life balance. When I'm not coding, you'll find me combining millennia-old techniques with a modern sense of competitive drive
-			 at a kickboxing court or doing a WOD at the box. </p>
+			<p>I Believe in Work - Life balance. When I'm not coding, you'll find me combining millennia-old techniques with a modern sense of competitive drive
+			 at a kickboxing court. </p>
 			<p>I am also a coffe lover who enjoy a delightful glass of Wine with a good book.</p>
 			<Contact />
 			</div>
