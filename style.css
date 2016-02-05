@@ -40,7 +40,8 @@ html, body {
   margin: 0 auto; }
 
 .image-settings {
-  width: 45%; }
+  width: 40%;
+  min-width: 300px; }
 
 .navbar-default {
   background: #A3D1CA !important; }

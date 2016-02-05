@@ -10,7 +10,7 @@ html, body {
 	height: auto !important;
 	margin: 0 auto;
 }
-.image-settings{ width: 45%;}
+.image-settings{ width: 40%;  min-width: 300px; }
 .navbar-default {
 	background: $main-color !important;
 	.navbar-brand{ color: #fff; font-size: 25px; padding:11px 15px;}
