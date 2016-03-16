@@ -22,7 +22,7 @@ module.exports = React.createClass({
 			to help the programmer  be happy and productive. </p>
 			<p>I Believe in Work - Life balance. When I'm not coding, you'll find me combining millennia-old techniques with a modern sense of competitive drive
 			 at a kickboxing court. </p>
-			<p>I am also a coffe lover who enjoy a delightful glass of Wine with a good book.</p>
+			<p>I am also a coffee lover who enjoys a delightful glass of Wine with a good book.</p>
 			<Contact />
 			</div>
 	},
