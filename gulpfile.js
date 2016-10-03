@@ -75,11 +75,11 @@ gulp.task('serve', function(done) {
 gulp.task('sass', function () {
   gulp.src('./sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(concat('style.css'))
+    .pipe(concat('app.css'))
     .pipe(gulp.dest('./'));
 });
 
-gulp.task('default', ['build', 'serve', 'sass', 'watch']);
+gulp.task('default', ['build', 'sass', 'watch']);
 
 gulp.task('watch', function () {
   gulp.watch('./sass/**/*.scss', ['sass']);
